@@ -12,9 +12,10 @@ function Contact() {
     <div className='section-container'> 
         <Header heading="Get in touch." details="Feel free to drop a mail."></Header>
        <div className="contact-form-container">
-        <form className="contact-form">
-            <input type="email" placeholder="your email ID" className="input-box email-input"></input>
-            <textarea type="text" placeholder="your Message" className="input-box body-input"></textarea>
+        <form className="contact-form"  action="https://formspree.io/f/xgeqeqab"
+  method="POST">
+            <input type="email" name="email" placeholder="your email ID" className="input-box email-input"></input>
+            <textarea type="text" placeholder="your Message" name="message" className="input-box body-input"></textarea>
             <button type="submit" className="contact-btn">Send Email</button>
         </form>
        </div>
