@@ -1,46 +1,29 @@
 export const projectsData = [
     {
-        projectName: 'Name It!',
-        projectDescription:
-            'Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj1.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NqJvvQ7-l9bUHHS6bMCkgo0',
-        projectUrl: 'http://theleanprogrammer.com/name-it/',
+        projectName:'Movie App',
+        projectDescription: ' If you are looking for all the updates about New Movies, this is the page for all  Movie freaks with the information about the Latest movies with its rating and summary.  ',
+        imageUrl:'https://user-images.githubusercontent.com/96234432/185785736-e0f78e4d-ebd0-41b2-8b74-499e8fdf887a.png',
+        projectUrl:'https://latestmoviesinfo.netlify.app/',
+    },
+    
+    {
+        projectName:'Calulator',
+        projectDescription: ' If you are looking for all the updates about New Movies, this is the page for all  Movie freaks with the information about the Latest movies with its rating and summary.  ',
+        imageUrl:'https://user-images.githubusercontent.com/96234432/185787720-3bcddd7a-38b9-4755-931b-acdb8102f74e.jpeg',
+        projectUrl:'https://hiteshcalculator.netlify.app/',
     },
     {
-        projectName: 'FlashType',
+        projectName: 'Tic Tac Toe',
         projectDescription:
-            'Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm) and share the results with your friends too.',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj2.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NppHNrzUSjMQbnuHS9jlAcY',
-        projectUrl: 'http://theleanprogrammer.com/flashtype/',
+            'A page for all  Movie freaks with the information about the Latest movies with its rating and summary. ',
+        imageUrl: 'https://user-images.githubusercontent.com/96234432/185788535-9aeb0b7a-7673-4746-818c-4256df838153.png',
+        projectUrl: 'https://hiteshtictactoe.netlify.app/',
     },
-    {
-        projectName: 'Flexbox Cheatsheet',
-        projectDescription:
-            'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. Learn the concepts of flexbox by building a cheatsheet which is built using flexbox. Super cool!',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj3.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrkKnaIrYeOolru4EakosHY',
-        projectUrl: 'http://theleanprogrammer.com/flex/',
-    },
-    {
-        projectName: 'PokeDex',
-        projectDescription:
-            "Pokemon was a huge part of our childhood, wasn't it? Talking about pokemon brings back so many memories, but do you remember the details of each pokemon? Probably No! So here I bring you a pokedex to check all pokemons :)",
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj4.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrjM7mUiSmpKfUntwEcgMB3',
-        projectUrl: 'http://theleanprogrammer.com/pokedex/',
-    },
+
     {
         projectName: 'Portfolio Website',
-        projectDescription:
-            'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
+        projectDescription: 'As i was intrested in making my own portfolio website, Here is the portfolio website of mine with all the details about Me.',
         imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj5.PNG',
-        videoUrl: 'http://theleanprogrammer.com/aam',
-        projectUrl: 'http://madhavbahl.tech/portfolio/',
+        projectUrl: 'https://msrhitesh-portfolio.netlify.app',
     },
 ];

@@ -1,0 +1,23 @@
+.section-container{
+    /* background:linear-gradient(39.97deg, #9cf0fb 0.79%, #a4caff 60.29%); */
+    background:#c4e0e5;
+    background-image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlEgmcdH9acjxm6gBVpo8yQ00ZrSVAT6fQHA&usqp=CAU';
+}
+.about-me-container{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    Margin:10px 100px;
+    border :2px solid #FFF ;
+    border-radius :5px;
+    padding:10px 30px;
+    text-align:justify;
+}
+
+.about-me-intro >p{
+    font-size:20px;
+    line-height:26px;
+    font-family:poppins;
+    font-weight:300;
+}

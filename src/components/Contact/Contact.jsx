@@ -21,8 +21,8 @@ function Contact() {
        </div>
         <div className='social-icons-container'>
             <a href="https://github.com/HiteshMSR" className='social-icon'><img src={github} alt="social" /></a>
-            <a href="https://github.com/HiteshMSR" className="social-icon"><img src={linkedin} alt="social" /></a>
-            <a href="https://github.com/HiteshMSR" className="social-icon"><img src={web} alt="social" /></a>
+            <a href="https://www.linkedin.com/in/hitesh-msr/" className="social-icon"><img src={linkedin} alt="social" /></a>
+            <a href="https://msrhitesh-portfolio.netlify.app/" className="social-icon"><img src={web} alt="social" /></a>
         </div>
 
 <FooterLink phrase="Read more " link=" about me" toadress="/about"></FooterLink>

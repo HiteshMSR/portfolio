@@ -4,7 +4,6 @@ import './Projects.css'
 const ProjectCard=({projectName, 
 projectDescription,
 imageUrl,
-videoUrl,
 projectUrl })=>{
     return(
         <div className="project-card">
@@ -18,7 +17,7 @@ projectUrl })=>{
                     {projectName}
                 </h2>
                 <p className="project-details">{projectDescription}</p>
-                <a href={videoUrl } className="project-gh-link">See More</a>
+                <a href={projectUrl } className="project-gh-link">See More</a>
 
             </div>
 
