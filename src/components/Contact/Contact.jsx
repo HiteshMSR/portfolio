@@ -16,7 +16,7 @@ function Contact() {
   method="POST">
             <input type="email" name="email" placeholder="your email ID" className="input-box email-input"></input>
             <textarea type="text" placeholder="your Message" name="message" className="input-box body-input"></textarea>
-            <button type="submit" className="contact-btn">Send Email</button>
+            <button type="submit" className="contact-btn" onclick="this.form.reset();">Send Email</button>
         </form>
        </div>
         <div className='social-icons-container'>
