@@ -7,8 +7,8 @@ function Home(){
     return(
         <div className="home-container">
             <div className="header-text">
-                <h1>Welcome to my Portfolio!</h1>
-                <p>This is Hitesh , a Full Stack Developer</p>
+                <h3>Hey!</h3>
+                <p>I'm <span className='dd'>Hitesh.</span></p>
             </div>
             <div className="head-btns">
                 <Link to='/about' className='btn btn-white'>
