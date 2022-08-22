@@ -30,12 +30,12 @@ const App= () => {
         <div>
       <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" style={{backgroundColor:"#00a1bd" }}>
-        <Toolbar>
-          <Button color="inherit" onClick={()=>navigate("/")} >Home</Button>
-          <Button color="inherit" onClick={()=>navigate("/about")} >About</Button>
-          <Button color="inherit" onClick={()=>navigate("/projects")} >Projects</Button>
-          <Button color="inherit" onClick={()=>navigate("/skills")} >Skills</Button>
-          <Button color="inherit" onClick={()=>navigate("/contact")} >Contact</Button>
+      <Toolbar  style={{justifyContent:"right", marginRight:15 }} >
+          <Button  style={{ marginRight:10}}color="inherit" onClick={()=>navigate("/")} >Home</Button>
+          <Button style={{ marginRight:10}} color="inherit" onClick={()=>navigate("/about")} >About</Button>
+          <Button style={{ marginRight:10}} color="inherit" onClick={()=>navigate("/projects")} >Projects</Button>
+          <Button style={{marginRight:10}} color="inherit" onClick={()=>navigate("/skills")} >Skills</Button>
+          <Button style={{marginRight:10}} color="inherit" onClick={()=>navigate("/contact")} >Contact</Button>
         </Toolbar>
       </AppBar>
     </Box>
